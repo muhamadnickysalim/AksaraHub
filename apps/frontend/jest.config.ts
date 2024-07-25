@@ -8,4 +8,7 @@ export default {
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
   coverageDirectory: '../../coverage/apps/frontend',
+  moduleNameMapper: {
+    '@testing-library/react': '<rootDir>/../../node_modules/@testing-library/react',
+  },
 };
