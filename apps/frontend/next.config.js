@@ -12,6 +12,15 @@ const nextConfig = {
     // See: https://github.com/gregberge/svgr
     svgr: false,
   },
+  // Add rewrites to proxy API requests
+  async rewrites() {
+    return [
+      {
+        source: '/api/:path*', // Match all paths starting with '/api'
+        destination: 'http://localhost:3333/api/:path*', // Proxy to Express.js backend
+      },
+    ];
+  },
 };
 
 const plugins = [
