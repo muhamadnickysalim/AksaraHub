@@ -10,8 +10,7 @@ export default function Index() {
         <div className="container">
           <div id="welcome">
             <h1>
-              <span> Hello there, </span>
-              Welcome frontend 👋
+              <span> Hello there, </span> Welcome frontend 👋
             </h1>
           </div>
 
@@ -70,8 +69,7 @@ export default function Index() {
                   />
                 </svg>
                 <span>
-                  Documentation
-                  <span> Everything is in there </span>
+                  Documentation <span> Everything is in there </span>
                 </span>
                 <svg
                   fill="none"
@@ -107,8 +105,7 @@ export default function Index() {
                   />
                 </svg>
                 <span>
-                  Blog
-                  <span> Changelog, features & events </span>
+                  Blog <span> Changelog, features & events </span>
                 </span>
                 <svg
                   fill="none"
@@ -140,8 +137,7 @@ export default function Index() {
                   <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
                 </svg>
                 <span>
-                  YouTube channel
-                  <span> Nx Show, talks & tutorials </span>
+                  YouTube channel <span> Nx Show, talks & tutorials </span>
                 </span>
                 <svg
                   fill="none"
@@ -177,8 +173,7 @@ export default function Index() {
                   />
                 </svg>
                 <span>
-                  Interactive tutorials
-                  <span> Create an app, step-by-step </span>
+                  Interactive tutorials <span> Create an app, step-by-step </span>
                 </span>
                 <svg
                   fill="none"
@@ -216,8 +211,7 @@ export default function Index() {
                   />
                 </svg>
                 <span>
-                  Video courses
-                  <span> Nx custom courses </span>
+                  Video courses <span> Nx custom courses </span>
                 </span>
                 <svg
                   fill="none"
@@ -252,8 +246,7 @@ export default function Index() {
                   <path d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z" />
                 </svg>
                 <span>
-                  Install Nx Console for VSCode
-                  <span>The official VSCode extension for Nx.</span>
+                  Install Nx Console for VSCode <span>The official VSCode extension for Nx.</span>
                 </span>
               </a>
               <a
@@ -284,10 +277,7 @@ export default function Index() {
                   </g>
                 </svg>
                 <span>
-                  Install Nx Console for JetBrains
-                  <span>
-                    Available for WebStorm, Intellij IDEA Ultimate and more!
-                  </span>
+                  Install Nx Console for JetBrains <span> Available for WebStorm, Intellij IDEA Ultimate and more! </span>
                 </span>
               </a>
               <div id="nx-cloud" className="rounded shadow">
@@ -310,8 +300,7 @@ export default function Index() {
                     />
                   </svg>
                   <h2>
-                    Nx Cloud
-                    <span>Enable faster CI & better DX</span>
+                    Nx Cloud <span>Enable faster CI & better DX</span>
                   </h2>
                 </div>
                 <p>
@@ -344,8 +333,7 @@ export default function Index() {
                   <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
                 </svg>
                 <span>
-                  Nx is open source
-                  <span> Love Nx? Give us a star! </span>
+                  Nx is open source <span> Love Nx? Give us a star! </span>
                 </span>
               </a>
             </div>
@@ -371,11 +359,8 @@ export default function Index() {
                 </svg>
                 Add UI library
               </summary>
-              <pre>
-                <span># Generate UI lib</span>
-                nx g @nx/next:library ui
-                <span># Add a component</span>
-                nx g @nx/next:component ui/src/lib/button
+              <pre> 
+                <span># Generate UI lib</span> nx g @nx/next:library ui <span># Add a component</span> nx g @nx/next:component ui/src/lib/button
               </pre>
             </details>
             <details>
@@ -434,12 +419,7 @@ export default function Index() {
                 Run affected commands
               </summary>
               <pre>
-                <span># see what&apos;s been affected by changes</span>
-                nx affected:graph
-                <span># run tests for current changes</span>
-                nx affected:test
-                <span># run e2e tests for current changes</span>
-                nx affected:e2e
+                <span># see what&apos;s been affected by changes</span> nx affected:graph <span># run tests for current changes</span> nx affected:test <span># run e2e tests for current changes</span> nx affected:e2e
               </pre>
             </details>
           </div>

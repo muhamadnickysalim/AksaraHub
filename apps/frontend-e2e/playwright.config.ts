@@ -10,7 +10,8 @@ const baseURL = process.env['BASE_URL'] || 'http://127.0.0.1:3000';
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
  */
-// require('dotenv').config();
+
+// if you want to use dotenv variable, use this code: require('dotenv').config();
 
 /**
  * See https://playwright.dev/docs/test-configuration.
